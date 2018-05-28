@@ -33,11 +33,23 @@ $ pip install -r requirements.txt
 $ deactivate
 ```
 
-### 2. Launch Zookeeper and Kafka
+### 2. Obtain credentials from Twitter API
 
-### 3. Create a topic
+- Follow steps here: [How to get API Keys and Tokens for Twitter](https://www.slickremix.com/docs/how-to-get-api-keys-and-tokens-for-twitter/)
+- create `.env` file (this is ignored in `/.gitognore` for security purposes)
 
-### 4. Run the stream
+```sh
+ACCESS_TOKEN="PASTE YOUR ACCESS TOKEN"
+ACCESS_TOKEN_SECRET="PASTE YOUR ACCESS TOKEN SECRET"
+CONSUMER_KEY="PASTE YOUR COMSUMER KEY"
+CONSUMER_SECRET="PASTE YOUR CONSUMER SECRET"
+```
+
+### 3. Launch Zookeeper and Kafka
+
+### 4. Create a topic
+
+### 5. Run the stream
 
 ## Tips
 
